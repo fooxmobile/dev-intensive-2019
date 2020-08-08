@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Dev-Intensive-Chat</string>
+
+    <!--errors-->
+    <string name="error.message.unknown">Произошла неизвестная ошибка</string>
+    <!--sheldon-->
+    <string name="answer.message.positive">Отлично! Это правильный ответ</string>
+    <string name="answer.message.negative">Это неправильный ответ</string>
+
+    <!--info-->
+    <string name="info.et.hint">Введите ответ</string>
 </resources>
