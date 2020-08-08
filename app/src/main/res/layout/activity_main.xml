@@ -11,9 +11,8 @@
         android:id="@+id/tv_text"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:text = "Hello World!"
         android:gravity="center"
-        android:textSize="@dimen/font_large_24"
+        android:textSize="@dimen/font_normal_16"
         />
 
     <ImageView
@@ -42,6 +41,7 @@
             android:paddingTop="@dimen/spacing_normal_16"
             android:paddingBottom="@dimen/spacing_normal_16"
             android:layout_marginLeft="@dimen/spacing_normal_16"
+            android:imeOptions="actionDone"
             />
         <ImageView
             android:id="@+id/iv_send"

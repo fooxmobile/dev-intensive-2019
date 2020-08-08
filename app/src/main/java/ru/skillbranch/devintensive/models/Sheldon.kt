@@ -22,15 +22,17 @@ class Sheldon (var status: STATUS = STATUS.NORMAL, var question: QUESTION = QUES
      */
 
     fun checkAnswer(answer: String) :Pair<String?, Triple<Int,Int,Int>> {
+
         return if (question.answers.contains((answer.toLowerCase())))  {
             question = question.nextQuestion()
-            "Отлично! Это правильный ответ" to status.color
+            "Отлично! Это правильный ответ.\n${question.text}" to status.color
         } else {
             status = status.nextStatus()
             "Это неправильный ответ! Еще раз:\n${question.text}" to status.color
         }
     }
 
+    //TODO validate answers
 
 
     enum class STATUS(val color: Triple<Int,Int,Int>) {
@@ -79,6 +81,7 @@ class Sheldon (var status: STATUS = STATUS.NORMAL, var question: QUESTION = QUES
             }
         },
         IDLE("У меня больше нет вопросов", listOf()) {
+            // TODO handle idle state and ask about "play again"
             override fun nextQuestion(): QUESTION {
                 return IDLE
             }

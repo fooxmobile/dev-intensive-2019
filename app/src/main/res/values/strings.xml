@@ -9,4 +9,8 @@
 
     <!--info-->
     <string name="info.et.hint">Введите ответ</string>
+
+    <!--keys-->
+    <string name="key.status">STATUS</string>
+    <string name="key.question">QUESTION</string>
 </resources>
