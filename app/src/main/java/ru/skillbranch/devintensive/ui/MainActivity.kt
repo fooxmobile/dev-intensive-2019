@@ -1,4 +1,4 @@
-package ru.skillbranch.devintensive
+package ru.skillbranch.devintensive.ui
 
 import android.graphics.Color
 import android.graphics.PorterDuff
@@ -11,6 +11,7 @@ import android.widget.EditText
 import android.widget.ImageView
 import android.widget.TextView
 import kotlinx.android.synthetic.main.activity_main.*
+import ru.skillbranch.devintensive.R
 import ru.skillbranch.devintensive.extensions.hideKeyboard
 import ru.skillbranch.devintensive.models.Sheldon
 
