@@ -13,4 +13,7 @@
     <!--keys-->
     <string name="key.status">STATUS</string>
     <string name="key.question">QUESTION</string>
+    <string name="hint.firstname">First Name</string>
+    <string name="hint.Lastname">Last Name</string>
+    <string name="hint.about">About me</string>
 </resources>
